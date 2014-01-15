@@ -32,9 +32,15 @@
                 android:id="@+id/button1" />
             <ImageButton
                 android:drawable="@drawable/ic_launcher"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
                 android:id="@+id/button2" />
+            <ImageButton
+                android:drawable="@drawable/ic_launcher"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"/>
         </TableRow>
         <TableRow
             android:layout_width="match_parent"
@@ -42,9 +48,22 @@
             android:layout_weight="0.25" >
             <ImageButton
                 android:drawable="@drawable/ic_launcher"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
                 android:id="@+id/button4" />
+            <ImageButton
+                android:drawable="@drawable/ic_launcher"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
+                android:id="@+id/button5" />
+            <ImageButton
+                android:drawable="@drawable/ic_launcher"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
+                android:id="@+id/button6" />
         </TableRow>
         <TableRow
             android:layout_width="match_parent"
