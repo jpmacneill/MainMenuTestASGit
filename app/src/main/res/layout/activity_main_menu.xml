@@ -19,8 +19,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/main_menu"
                 android:gravity="center"
-                android:id="@+id/textView"
-                android:layout_gravity="center_horizontal|top" />
+                android:id="@+id/textView" />
         </TableRow>
         <TableRow
             android:layout_width="0dp"
