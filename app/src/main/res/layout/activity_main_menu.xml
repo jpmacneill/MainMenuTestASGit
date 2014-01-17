@@ -1,90 +1,130 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     tools:context="com.cisproject.app.MainMenuActivity"
     tools:ignore="MergeRootFrame" >
 
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Spa Fitness Center"
-        android:id="@+id/textView"
-        android:layout_gravity="center_horizontal|top" />
-
     <TableLayout
-        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weigth="0.5" >
-
+        android:layout_width="match_parent" >
         <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.25" >
-            <ImageButton
-                android:drawable="@drawable/ic_launcher"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
                 android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="0.33"
-                android:id="@+id/button1" />
-            <ImageButton
-                android:drawable="@drawable/ic_launcher"
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="0.33"
-                android:id="@+id/button2" />
-            <ImageButton
-                android:drawable="@drawable/ic_launcher"
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="0.33"/>
-        </TableRow>
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.25" >
-            <ImageButton
-                android:drawable="@drawable/ic_launcher"
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="0.33"
-                android:id="@+id/button4" />
-            <ImageButton
-                android:drawable="@drawable/ic_launcher"
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="0.33"
-                android:id="@+id/button5" />
-            <ImageButton
-                android:drawable="@drawable/ic_launcher"
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="0.33"
-                android:id="@+id/button6" />
-        </TableRow>
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.25" >
-            <ImageButton
-                android:drawable="@drawable/ic_launcher"
-                android:layout_width="wrap_content"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:id="@+id/button7" />
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/main_menu"
+                android:gravity="center"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal|top" />
         </TableRow>
         <TableRow
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="0.25" >
-            <ImageButton
-                android:drawable="@drawable/ic_launcher"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button10" />
-        </TableRow>
+            android:layout_weight="1.00" >
+            <TableLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
 
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25" >
+                    <ImageButton
+                        android:drawable="@drawable/ic_launcher"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:id="@+id/button1" />
+                    <ImageButton
+                        android:drawable="@drawable/ic_launcher"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:id="@+id/button2" />
+                    <ImageButton
+                        android:drawable="@drawable/ic_launcher"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:id="@+id/button3" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25" >
+                    <ImageButton
+                        android:drawable="@drawable/ic_launcher"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:id="@+id/button4" />
+                    <ImageButton
+                        android:drawable="@drawable/ic_launcher"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:id="@+id/button5" />
+                    <ImageButton
+                        android:drawable="@drawable/ic_launcher"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:id="@+id/button6" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25" >
+                    <ImageButton
+                        android:drawable="@drawable/ic_launcher"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:id="@+id/button7" />
+                    <ImageButton
+                        android:drawable="@drawable/ic_launcher"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:id="@+id/button8" />
+                    <ImageButton
+                        android:drawable="@drawable/ic_launcher"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:id="@+id/button9" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25" >
+                    <ImageButton
+                        android:drawable="@drawable/ic_launcher"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:id="@+id/button10" />
+                    <ImageButton
+                        android:drawable="@drawable/ic_launcher"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:id="@+id/button11" />
+                    <ImageButton
+                        android:drawable="@drawable/ic_launcher"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:id="@+id/button12" />
+                </TableRow>
+
+            </TableLayout>
+        </TableRow>
     </TableLayout>
-</FrameLayout>
+</RelativeLayout>
