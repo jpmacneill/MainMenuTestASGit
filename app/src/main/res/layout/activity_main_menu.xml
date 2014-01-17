@@ -35,19 +35,19 @@
                     android:layout_height="0dp"
                     android:layout_weight="0.25" >
                     <ImageButton
-                        android:drawable="@drawable/ic_launcher"
+                        android:src="@drawable/ic_launcher"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="0.33"
                         android:id="@+id/button1" />
                     <ImageButton
-                        android:drawable="@drawable/ic_launcher"
+                        android:src="@drawable/ic_launcher"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="0.33"
                         android:id="@+id/button2" />
                     <ImageButton
-                        android:drawable="@drawable/ic_launcher"
+                        android:src="@drawable/ic_launcher"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="0.33"
@@ -58,19 +58,19 @@
                     android:layout_height="0dp"
                     android:layout_weight="0.25" >
                     <ImageButton
-                        android:drawable="@drawable/ic_launcher"
+                        android:src="@drawable/ic_launcher"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="0.33"
                         android:id="@+id/button4" />
                     <ImageButton
-                        android:drawable="@drawable/ic_launcher"
+                        android:src="@drawable/ic_launcher"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="0.33"
                         android:id="@+id/button5" />
                     <ImageButton
-                        android:drawable="@drawable/ic_launcher"
+                        android:src="@drawable/ic_launcher"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="0.33"
@@ -81,19 +81,19 @@
                     android:layout_height="0dp"
                     android:layout_weight="0.25" >
                     <ImageButton
-                        android:drawable="@drawable/ic_launcher"
+                        android:src="@drawable/ic_launcher"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="0.33"
                         android:id="@+id/button7" />
                     <ImageButton
-                        android:drawable="@drawable/ic_launcher"
+                        android:src="@drawable/ic_launcher"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="0.33"
                         android:id="@+id/button8" />
                     <ImageButton
-                        android:drawable="@drawable/ic_launcher"
+                        android:src="@drawable/ic_launcher"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="0.33"
@@ -104,19 +104,19 @@
                     android:layout_height="0dp"
                     android:layout_weight="0.25" >
                     <ImageButton
-                        android:drawable="@drawable/ic_launcher"
+                        android:src="@drawable/ic_launcher"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="0.33"
                         android:id="@+id/button10" />
                     <ImageButton
-                        android:drawable="@drawable/ic_launcher"
+                        android:src="@drawable/ic_launcher"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="0.33"
                         android:id="@+id/button11" />
                     <ImageButton
-                        android:drawable="@drawable/ic_launcher"
+                        android:src="@drawable/ic_launcher"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="0.33"
